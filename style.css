@@ -166,21 +166,90 @@ body {
   font-size: 14px;
 }
 .main-container .main-about .about-video {
-  position: relative;
   padding-left: 100px;
 }
 .main-container .main-about .about-video .video-play {
   width: 66px;
   height: 66px;
-  position: absolute;
-  top: 30%;
-  left: 13%;
+  position: relative;
+  top: -53%;
+  left: 7%;
 }
 .main-container .main-about .about-video .bg-video {
   margin: 0;
   width: 445px;
   height: 311px;
   padding-bottom: 95px;
+}
+
+.main-features {
+  font-family: "Lato", sans-serif;
+  height: 660px;
+  width: 100%;
+  background-color: #FAFAFA;
+}
+.main-features .features-container {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-features .features-container .features-text {
+  padding: 63px;
+  text-align: center;
+  font-size: 36px;
+}
+.main-features .features-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main-features .features-cards .features-card {
+  width: 350px;
+  height: 355px;
+  padding-left: 30px;
+}
+.main-features .features-cards .features-card img {
+  width: 350px;
+  height: 250px;
+}
+.main-features .features-cards .features-card .features-card-about {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -27%;
+  left: 8%;
+  width: 293px;
+  height: 198px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.main-features .features-cards .features-card .features-card-about .features-about-text {
+  display: flex;
+  width: 229px;
+  height: 40px;
+  text-align: center;
+  padding-top: 33px;
+  padding-bottom: 22px;
+  margin: 0;
+}
+.main-features .features-cards .features-card .features-card-about .about-more-information {
+  width: 229px;
+  height: 57px;
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+}
+.main-features .features-cards .features-card .features-card-about .features-read-more {
+  text-decoration: none;
+  color: #ED4C5C;
+}
+.main-features .features-cards .features-card .features-card-about .features-read-more :hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
