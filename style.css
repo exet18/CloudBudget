@@ -390,4 +390,84 @@ body {
   margin-right: auto;
 }
 
+.main-tech-support {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+}
+.main-tech-support .tech-support-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  padding-top: 117px;
+  padding-bottom: 33px;
+}
+.main-tech-support .tech-support-container .support-information {
+  width: 445px;
+  height: 350px;
+}
+.main-tech-support .tech-support-container .support-information .information-contact {
+  font-size: 36px;
+  margin: 0;
+  padding-bottom: 50px;
+}
+.main-tech-support .tech-support-container .support-information .more-information {
+  text-align: left;
+}
+.main-tech-support .tech-support-container .tech-request {
+  height: 350px;
+  width: 540px;
+}
+.main-tech-support .tech-support-container .tech-request .user-name-block {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+.main-tech-support .tech-support-container .tech-request .user-name-block input {
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  padding-left: 30px;
+  color: rgba(19, 39, 67, 0.5);
+  font-size: 16px;
+  width: 255px;
+  height: 60px;
+  border-radius: 6px;
+}
+.main-tech-support .tech-support-container .tech-request .phone-number-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-tech-support .tech-support-container .tech-request .phone-number-service .phone-number {
+  border: 1px solid #333333;
+  width: 505px;
+  height: 60px;
+  padding-left: 30px;
+  color: rgba(19, 39, 67, 0.5);
+  font-size: 16px;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+.main-tech-support .tech-support-container .tech-request .phone-number-service .select-service {
+  width: 540px;
+  height: 60px;
+  padding-left: 30px;
+  color: rgba(19, 39, 67, 0.5);
+  font-size: 16px;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+.main-tech-support .tech-support-container .tech-request .submit-form {
+  background: #ED4C5C;
+  border: 1.5px solid #ED4C5C;
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: #FFFFFF;
+  width: 160px;
+  height: 50px;
+  font-size: 14px;
+}
+
 /*# sourceMappingURL=style.css.map */
