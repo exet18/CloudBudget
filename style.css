@@ -1,3 +1,8 @@
+.main-section {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -135,47 +140,45 @@ body {
   margin-right: auto;
 }
 
-.main-container {
-  max-width: 1440px;
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
+.main-about {
   padding-top: 94px;
 }
-.main-container .main-about {
+.main-about .about-container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
   font-family: "Lato", sans-serif;
   display: flex;
 }
-.main-container .main-about .about-text {
+.main-about .about-container .about-text {
   width: 445px;
 }
-.main-container .main-about .about-text .about-main-text {
+.main-about .about-container .about-text .about-main-text {
   font-weight: 700;
   font-size: 36px;
 }
-.main-container .main-about .about-text .about-info {
+.main-about .about-container .about-text .about-info {
   font-weight: 400;
   font-size: 14px;
   line-height: 140%;
 }
-.main-container .main-about .about-text .learn-more {
+.main-about .about-container .about-text .learn-more {
   text-decoration: none;
   color: #ED4C5C;
   font-size: 14px;
 }
-.main-container .main-about .about-video {
+.main-about .about-container .about-video {
   padding-left: 100px;
 }
-.main-container .main-about .about-video .video-play {
+.main-about .about-container .about-video .video-play {
   width: 66px;
   height: 66px;
   position: relative;
   top: -53%;
   left: 7%;
 }
-.main-container .main-about .about-video .bg-video {
+.main-about .about-container .about-video .bg-video {
   margin: 0;
   width: 445px;
   height: 311px;
@@ -184,7 +187,6 @@ body {
 
 .main-features {
   font-family: "Lato", sans-serif;
-  height: 660px;
   width: 100%;
   background-color: #FAFAFA;
 }
@@ -199,13 +201,16 @@ body {
   padding: 63px;
   text-align: center;
   font-size: 36px;
+  margin: 0;
 }
 .main-features .features-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 124px;
 }
 .main-features .features-cards .features-card {
+  padding-top: 20px;
   width: 350px;
   height: 355px;
   padding-left: 30px;
@@ -250,6 +255,82 @@ body {
 }
 .main-features .features-cards .features-card .features-card-about .features-read-more :hover {
   text-decoration: underline;
+}
+
+.main-technology {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+}
+.main-technology .technology-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+}
+.main-technology .technology-container .technology-text {
+  padding-top: 63px;
+  padding-bottom: 52px;
+  text-align: center;
+  font-size: 36px;
+  margin: 0;
+}
+.main-technology .technology-container .technology-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 104px;
+}
+.main-technology .technology-container .technology-list .technology-card {
+  width: 255px;
+  height: 226px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-technology .technology-container .technology-list .technology-card .num-card {
+  width: 120px;
+  position: relative;
+}
+.main-technology .technology-container .technology-list .technology-card .num-card img {
+  position: absolute;
+}
+.main-technology .technology-container .technology-list .technology-card .num-card h2 {
+  margin: 0;
+  font-size: 100px;
+  text-align: center;
+  color: rgba(16, 16, 16, 0.08);
+}
+.main-technology .technology-container .technology-list .technology-card .technology-text-about {
+  margin: 0;
+  padding-top: 19px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.main-technology .technology-container .technology-list .technology-card .about-technology {
+  padding-top: 10px;
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  width: 191px;
+}
+.main-technology .technology-container .technology-list .technology-card .t-cloud {
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 16%;
+}
+.main-technology .technology-container .technology-list .technology-card .t-secure {
+  top: 54%;
+  left: 23%;
+}
+.main-technology .technology-container .technology-list .technology-card .t-pdf {
+  top: 56%;
+  left: 32%;
+}
+.main-technology .technology-container .technology-list .technology-card .t-csv {
+  top: 60%;
+  left: 31%;
 }
 
 /*# sourceMappingURL=style.css.map */

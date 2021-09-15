@@ -1,5 +1,9 @@
 $generalWidth: 100%;
 $contentWidth: 1440px;
+.main-section{
+  display: flex;
+  flex-direction: column;
+}
 body{
   padding: 0;
   margin: 0;
@@ -137,14 +141,12 @@ body{
     margin-right: auto;
   }
 }
-.main-container{
-  max-width: 1440px;
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
+.main-about{
   padding-top: 94px;
-  .main-about{
+  .about-container{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     font-family: 'Lato', sans-serif;
     display: flex;
@@ -185,7 +187,6 @@ body{
 }
 .main-features{
   font-family: 'Lato', sans-serif;
-  height: 660px;
   width: 100%;
   background-color: #FAFAFA;
   .features-container{
@@ -198,13 +199,16 @@ body{
       padding: 63px;
       text-align: center;
       font-size: 36px;
+      margin: 0;
     }
   }
   .features-cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 124px;
     .features-card{
+      padding-top: 20px;
       width: 350px;
       height: 355px;
       padding-left: 30px;
@@ -252,3 +256,79 @@ body{
     }
   }
 }
+.main-technology{
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  .technology-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    .technology-text{
+      padding-top: 63px;
+      padding-bottom: 52px;
+      text-align: center;
+      font-size: 36px;
+      margin: 0;
+    }
+    .technology-list{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 104px;
+      .technology-card{
+        width: 255px;
+        height: 226px;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .num-card{
+          width: 120px;
+          position: relative;
+          img{
+            position: absolute;
+          }
+          h2{
+            margin: 0;
+            font-size: 100px;
+            text-align: center;
+            color: rgba(16, 16, 16, 0.08);
+          }
+        }
+        .technology-text-about{
+          margin: 0;
+          padding-top: 19px;
+          font-weight: 700;
+          font-size: 18px;
+        }
+        .about-technology{
+          padding-top: 10px;
+          margin: 0;
+          text-align: center;
+          font-weight: 400;
+          font-size: 12px;
+          width: 191px;
+        }
+        .t-cloud{
+          width: 80px;
+          height: 80px;
+          top: 50%;
+          left: 16%;
+        }
+        .t-secure{
+          top: 54%;
+          left: 23%;
+        }
+        .t-pdf{
+          top: 56%;
+          left: 32%;
+        }
+        .t-csv{
+          top: 60%;
+          left: 31%;
+        }
+      }
+    }
+  }
+}
+
