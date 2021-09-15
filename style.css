@@ -333,4 +333,61 @@ body {
   left: 31%;
 }
 
+.main-recommendation {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  background: #ED4C5C;
+}
+.main-recommendation .recommendation-container {
+  padding-top: 94px;
+  padding-bottom: 95px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main-recommendation .recommendation-container .information-about-money {
+  width: 445px;
+  height: 311px;
+  padding-right: 83px;
+}
+.main-recommendation .recommendation-container .information-about-money .information-text {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+.main-recommendation .recommendation-container .information-about-money .recommendation-text {
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-bottom: 42px;
+}
+.main-recommendation .recommendation-container .information-about-money .recommendation-link {
+  display: flex;
+  align-items: center;
+}
+.main-recommendation .recommendation-container .information-about-money .recommendation-link a {
+  padding-right: 28px;
+}
+.main-recommendation .recommendation-container .recommendation-gallery {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 533px;
+  height: 311px;
+}
+.main-recommendation .recommendation-container .recommendation-gallery img {
+  position: absolute;
+}
+.main-recommendation .recommendation-container .recommendation-gallery .second-image {
+  right: 0;
+}
+.main-recommendation .recommendation-container .recommendation-gallery .main-image {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
